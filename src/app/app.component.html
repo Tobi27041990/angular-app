@@ -1,19 +1,21 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div  style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <h2>
-    Utilizamos las dos llaves para mostrar el contenido de un variable en el componente:
-    {{ cantidadLinks }}
-  </h2>
-</div>
+<app-layout>
+  <div class="jumbotron">
+    <h1>Angular CLI v6 + Bootstrap & FontAwesome</h1>
+    <p>
+      In this tutorial you learn how to use Angular CLI v6 with Bootstrap and FontAwesome!
+    </p>
+  </div>
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="formulario">Ir al formulario</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="persona">Ir a persona</a>
+    </li>
+  </ul>
+</app-layout>
 
-<ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link" routerLink="persona">Ir a persona</a>
-  </li>
-</ul>
+
 
 
 <router-outlet></router-outlet>
